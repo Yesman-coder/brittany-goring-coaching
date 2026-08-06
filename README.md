@@ -1,5 +1,7 @@
 # Brittany Goring — Mental Health Coaching Website
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-brittany--goring--coaching-181717?logo=github&logoColor=white)](https://github.com/Yesman-coder/brittany-goring-coaching)
+
 A fast, polished one-page website for **Brittany Goring, Mental Health Coach**.
 Built with Next.js 14, TypeScript, and Tailwind CSS. Everything you'd normally
 need to touch — her bio, services, packages, prices, contact info, photos — lives
