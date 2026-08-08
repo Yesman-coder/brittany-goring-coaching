@@ -16,7 +16,7 @@ export default function Packages() {
           </p>
         </Reveal>
 
-        <div className="mt-14 grid items-stretch gap-6 md:grid-cols-3">
+        <div className="mt-14 grid items-stretch gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {packages.map((pkg, i) => (
             <Reveal key={pkg.name} delay={i * 0.08} className="h-full">
               <article
