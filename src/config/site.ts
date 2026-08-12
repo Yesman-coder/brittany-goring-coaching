@@ -4,6 +4,7 @@ import {
   Compass,
   Users,
   Sprout,
+  Leaf,
   type LucideIcon,
 } from "lucide-react";
 
@@ -53,10 +54,10 @@ export const site = {
 export const hero = {
   eyebrow: "A new chapter in care",
   // The pivot narrative is the signature message.
-  headlineLead: "For years, she cared for the body.",
-  headlineEmphasis: "Now she's here for the mind.",
+  headlineLead: "For years, she has helped people heal physically.",
+  headlineEmphasis: "Now, she is here to support the mind.",
   subhead:
-    "Brittany Goring spent her career helping people heal physically as the CEO of two Philadelphia home-care agencies. Today she brings that same steady, whole-person care to mental health coaching — helping you find clarity, resilience, and a way forward.",
+    "As CEO of two Philadelphia-area home-care agencies, Brittany Goring has built her career around compassionate, whole-person care. Today, she brings that same steady and practical approach to mental health coaching — helping you gain clarity, strengthen resilience, and find a meaningful path forward.",
   primaryCta: { label: "Book a free consultation", href: "#book" },
   secondaryCta: { label: "Explore coaching", href: "#services" },
   trustChips: [
@@ -69,11 +70,16 @@ export const hero = {
 // ── About ─────────────────────────────────────────────────────
 export const about = {
   eyebrow: "About Brittany",
-  heading: "The throughline is care",
+  heading: "A Life and Career Rooted in Care",
   paragraphs: [
-    "Brittany Goring is a Philadelphia healthcare entrepreneur and the CEO of WeAllCare Home Health Care and ICare Home Care. For years she has built teams and delivered compassionate, whole-person care to hundreds of families across the region.",
-    "That work taught her something simple: healing is never only physical. So often the hardest parts of recovery, of caregiving, of everyday life, are the ones we carry in our minds. That realization led Brittany to formal training in mental health at Capella University and to a new calling as a mental health coach.",
-    "Her approach is grounded and practical. She listens first, meets you where you are, and helps you build the tools to move forward — whether that's a career decision, a life transition, or simply the weight of holding it all together.",
+    "For years, she has helped people heal physically. Now, she is here to support the mind.",
+    "As CEO of two Philadelphia-area home-care agencies, Brittany Goring has built her career around compassionate, whole-person care. Today, she brings that same steady and practical approach to mental health coaching — helping you gain clarity, strengthen resilience, and find a meaningful path forward.",
+    "Her practice draws on evidence-based frameworks including Cognitive Behavioral Therapy (CBT) and Reality Therapy, woven together with a holistic lens that treats overall wellness — mind, purpose, and daily life — as the shared goal.",
+  ],
+  clinicalApproaches: [
+    "Cognitive Behavioral Therapy (CBT)",
+    "Reality Therapy",
+    "Holistic Wellness",
   ],
   stats: [
     { value: "500+", label: "Families cared for" },
@@ -126,6 +132,12 @@ export const services: Service[] = [
     description:
       "For families, caregivers, and teams: guidance on building spaces — at home and at work — where mental well-being is understood, protected, and prioritized.",
     icon: Sprout,
+  },
+  {
+    title: "Holistic healing",
+    description:
+      "Support that goes beyond the session. Using overall wellness as the goal, Brittany helps you align mind, purpose, and daily habits — so growth holds up in real life.",
+    icon: Leaf,
   },
 ];
 

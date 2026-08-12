@@ -48,6 +48,22 @@ export default function About() {
               </div>
             ))}
           </dl>
+
+          <div className="mt-8">
+            <p className="text-xs font-semibold uppercase tracking-widest text-forest/40">
+              Clinical approaches
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {about.clinicalApproaches.map((approach) => (
+                <span
+                  key={approach}
+                  className="rounded-full border border-pine/25 bg-pine/8 px-3 py-1 text-sm text-pine"
+                >
+                  {approach}
+                </span>
+              ))}
+            </div>
+          </div>
         </Reveal>
       </div>
     </section>
